@@ -9,4 +9,5 @@ For YC Hacks 8/3/2014.
 Live URL examples:
 
 [http://nextup-bart-hack.herokuapp.com/station/cols](http://nextup-bart-hack.herokuapp.com/station/cols)
+
 [http://nextup-bart-hack.herokuapp.com/stations?lat=37.699&lng=-122.29](http://nextup-bart-hack.herokuapp.com/stations?lat=37.699&lng=-122.29)
