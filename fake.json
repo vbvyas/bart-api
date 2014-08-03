@@ -1,0 +1,50 @@
+{
+  "root": {
+    "uri": " http://api.bart.gov/api/etd.aspx?cmd=etd&orig=RICH ",
+    "date": "03/30/2011",
+    "time": "02:43:27 PM PDT",
+    "station": {
+      "name": "Richmond",
+      "abbr": "RICH",
+      "etd": [
+        {
+          "destination": "Fremont",
+          "abbreviation": "FRMT",
+          "estimate": [
+            {
+              "minutes": "5",
+              "platform": "2",
+              "direction": "South",
+              "length": "6",
+              "color": "ORANGE",
+              "hexcolor": "#ff9933",
+              "bikeflag": "1"
+            },
+            {
+              "minutes": "20",
+              "platform": "2",
+              "direction": "South",
+              "length": "6",
+              "color": "ORANGE",
+              "hexcolor": "#ff9933",
+              "bikeflag": "1"
+            }
+          ]
+        },
+        {
+          "destination": "Millbrae",
+          "abbreviation": "MLBR",
+          "estimate": {
+            "minutes": "Leaving",
+            "platform": "2",
+            "direction": "South",
+            "length": "10",
+            "color": "RED",
+            "hexcolor": "#ff0000",
+            "bikeflag": "1"
+          }
+        }
+      ]
+    }
+  }
+}

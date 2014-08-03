@@ -8,8 +8,11 @@
     "url": "https://github.com/vbvyas/bart-api.git"
   },
   "dependencies": {
-    "hapi": "*"
-  }
+    "hapi": "*",
+    "geolib": "*",
+    "request": "*",
+    "xml2js": "*"
+  },
   "author": "vbvyas",
-  "license": "MIT",
+  "license": "MIT"
 }
