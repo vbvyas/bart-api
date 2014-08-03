@@ -1,6 +1,6 @@
 # BART API
 
-BART API powering PebbleNextUpHack app [https://github.com/kevd1337/PebbleNextUpHack](https://github.com/kevd1337/PebbleNextUpHack)
+BART API powering PebbleNextUpHack app: [https://github.com/kevd1337/PebbleNextUpHack](https://github.com/kevd1337/PebbleNextUpHack)
 
 NextUp - Is a Pebble app that helps you to find transit information for stations near you.
 
