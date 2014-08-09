@@ -1,13 +1,13 @@
-# BART API
+# BART NextUp API
 
-BART API powering [PebbleNextUpHack](http://www.showhacks.com/p/eJUihHUUMx) app:
+BART NextUP API powering [PebbleNextUpHack](http://www.showhacks.com/p/eJUihHUUMx) app:
 [https://github.com/kevd1337/PebbleNextUpHack](https://github.com/kevd1337/PebbleNextUpHack)
 
 ![Screenshot](http://showhackstest.s3.amazonaws.com/detail_1407092908952.jpg)
 
 NextUp - Is a Pebble app that helps you to find transit information for stations near you.
 
-For YC Hacks 8/3/2014.
+Created for YC Hacks 2014 - [NextUp Submission](http://ychacks.challengepost.com/submissions/25729-next-up)
 
 To get station information:
 
