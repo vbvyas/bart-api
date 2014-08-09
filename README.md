@@ -25,7 +25,7 @@ Live URL examples:
 
 To run locally:
 
-    git clone 
+    git clone https://github.com/vbvyas/bart-api.git
     cd bart-api
     npm install
     node app.js
