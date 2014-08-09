@@ -22,3 +22,10 @@ Live URL examples:
 [http://nextup-bart-hack.herokuapp.com/station/cols](http://nextup-bart-hack.herokuapp.com/station/cols)
 
 [http://nextup-bart-hack.herokuapp.com/stations?lat=37.699&lng=-122.29](http://nextup-bart-hack.herokuapp.com/stations?lat=37.699&lng=-122.29)
+
+To run locally:
+
+    git clone 
+    cd bart-api
+    npm install
+    node app.js
