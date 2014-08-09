@@ -1,6 +1,6 @@
 # BART NextUp API
 
-BART NextUP API powering [PebbleNextUpHack](https://github.com/kevd1337/PebbleNextUpHack) app:
+BART NextUP API powering [PebbleNextUpHack](https://github.com/kevd1337/PebbleNextUpHack) app
 
 ![Screenshot](http://showhackstest.s3.amazonaws.com/detail_1407092908952.jpg)
 
