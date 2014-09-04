@@ -11,7 +11,8 @@
     "hapi": "*",
     "geolib": "*",
     "request": "*",
-    "xml2js": "*"
+    "xml2js": "*",
+    "q": "*"
   },
   "author": "vbvyas",
   "license": "MIT"
