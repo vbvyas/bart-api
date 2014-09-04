@@ -1,6 +1,7 @@
 var Hapi = require('hapi');
 var geolib = require('geolib');
 var request = require('request');
+var q = require('q');
 var parser = require('xml2js').parseString;
 var stations = require('./stations.json');
 var fake = require('./fake.json');
