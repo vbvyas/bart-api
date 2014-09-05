@@ -11,6 +11,13 @@ var app = Hapi.createServer('0.0.0.0', parseInt(process.env.PORT, 10) || 3000);
 var url = "http://api.bart.gov/api/etd.aspx?cmd=etd&orig="
 var key = "&key=" + bart_key;
 
+// get request
+function request(queryUrl) {
+  var deferred = q.defer();
+  request(queryUrl, deferred.node());
+  return deferred.promise;
+}
+
 // routes
 app.route({
   method: 'GET',
@@ -21,11 +28,14 @@ app.route({
       res(fake);
     } else {
       var queryUrl = url + stn + key;
-      request(queryUrl, function(err, request_res, body) {
+      request(queryUrl)
+      .then(function(err, request_res, body) {
         if (err) {
           res([]);
         } else {
-          parser(body, function (err, result) {
+          var parser = q.denodeify(parser);
+          parser(body)
+          .then(function (err, result) {
             res(result);
           });
         }
