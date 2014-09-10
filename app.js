@@ -14,7 +14,7 @@ var key = "&key=" + bart_key;
 // get request
 function request(queryUrl) {
   var deferred = q.defer();
-  request(queryUrl, deferred.node());
+  request(queryUrl, deferred.resolve);
   return deferred.promise;
 }
 
